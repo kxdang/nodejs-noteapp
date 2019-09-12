@@ -63,7 +63,7 @@ const readNote = title => {
     console.log(chalk.bgMagenta(findNote.title));
     console.log(findNote.body);
   } else {
-    console.log(chalk.red("Error"));
+    console.log(chalk.red("Note not found!"));
   }
 };
 
